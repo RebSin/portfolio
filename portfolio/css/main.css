@@ -2,7 +2,7 @@ body{
   font-family: 'Roboto', sans-serif;
   font-size: 1.5em;
   color: #000000;
-  /* background-image: url("../images/papyrus.png"); */
+  background-image: url("../images/papyrus.png");
 }
 
 h2 {
@@ -29,15 +29,19 @@ p.bio{
 }
 
 .row{
-  padding: 2% 0%;
+  padding: 4% 0%;
 }
 .blue {
   background-color:#5388C9;
 }
 
 header.mainnavbar{
-  padding: 1% 0%;
+  padding: 0.5% 0%;
   display: block;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 9999;
 }
 p.copyright{
   text-align: center;
@@ -63,6 +67,26 @@ p.copyright{
   color:#3B647F;
   text-decoration: none !important;
 }
+.projectbackground {
+  /* background-image: url("../images/papyrus.png"); */
+  background-color:white;
+}
+
+.projImg {
+  margin-left: 5%;
+  opacity: 70%;
+  filter: grayscale(100%);
+}
+.projImg:hover {
+  opacity: 100%;
+  filter: grayscale(0%);
+  box-shadow: 2px 0px 20px 1px rgba(0, 0, 0, 0.4);
+}
+.noHov:hover {
+  opacity: 70%;
+  filter: grayscale(100%);
+  box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+}
 
 .currentNav {
   text-decoration-color: #fff !important;
@@ -78,12 +102,18 @@ p.copyright{
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  position: fixed;
+  right: 20%;
+  bottom: 0;
+  top: 30%;
+  z-index: 1;
 }
 
 .projectLinks {
   text-decoration: none;
-  margin: 2%;
+  margin: 1%;
   color:rgba(0,0,0,.6);
+  font-size: 80%;
 }
 .projectLinks:hover {
   color:#3B647F;
@@ -102,7 +132,7 @@ p.copyright{
 #tagline {
   background-color: red;
   animation-name: colourChanger;
-  animation-duration: 8s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
 }
 
@@ -131,7 +161,7 @@ img.avatar:hover{
 
 .backButton a {
   font-family: 'Roboto', sans-serif;
-  color: #fff;
+  color: #000;
   text-decoration: none;
   font-size: 1em;
   padding: 2px 10px 0 10px;
@@ -148,10 +178,11 @@ img.avatar:hover{
 
 .backnavi a {
   font-family: 'Roboto', sans-serif;
-  color: #fff;
+  color: #CECECE;
   text-decoration: none;
   font-size: 1em;
   padding: 2px 10px 0 10px;
+  background-color: none;
   margin: 0;
 }
 .inTextLink {
@@ -177,8 +208,18 @@ img.avatar:hover{
   margin-left: auto;
 }
 
+#photographofme:hover {
+  opacity: 100%;
+}
+
 #homeimg:hover{
   opacity: 1;
+}
+
+@media screen and (max-width: 1000px) {
+  #projectSort {
+    display: none;
+  } /*TODO: When this is not displayed, display text as six columns instead of four */
 }
 
 @media screen and (min-width: 951px) and (max-width: 1250px) {
@@ -199,5 +240,8 @@ img.avatar:hover{
   #homeimg{
     height: 0;
     width: 0;
+  }
+  .projImg {
+    margin-left: 0%;
   }
 }

@@ -27,17 +27,16 @@
 
   </head>
   <body>
+        <!-- The main navigation bar at the top -->
 <element id ="thisNav">
-    <!-- The main navigation bar at the top -->
-    <header class="mainnavbar blue">
+    <header class="mainnavbar">
         <div class="container">
             <div class="twelve columns">
-              <img id = "homeimg" src="images/Logo.jpg" alt="home">
               <div class="navi">
                 <a href="index.html"> home </a>
-                <a href="projects.html"> projects </a>
-                <a href="about.html"> about </a>
-                <a href="contact.html"> contact </a>
+                <a href="resume/Resume.pdf" target="_blank"> resume </a>
+                <a href="contact.html"> about </a>
+                <img id = "homeimg" src="images/Logo.jpg" alt="home"/>
               </div>
             </div>
         </div>
@@ -45,103 +44,85 @@
   </element>
     <!-- The main navigation bar at the top -->
 
-    <!-- The backbutton bar at the top -->
-    <header class="mainnavbar blue">
+    <!-- Introduction to Evder -->
+    <div class="row">
         <div class="container">
-            <div class="twelve columns">
-              <div class="backButton">
-                <a href="projects.html"> back </a>
-              </div>
-            </div>
+          <div class="twelve columns">
+            <h2 class="intro">  evder. </h2>
+          </div>
+          <div class="eight columns">
+           <p class="bio"> a <b id ="tagline"> back end web development</b> project. </p>
+          <p class ="bio">
+            <b>Description: </b> I wanted to challenge Vancouver's image as a city without much excitement to it. From this came the
+            idea of Evder: a website that contains all of the events that are happening in a lower mainland location of your choice and
+            displays them to you in one location.
+            <br>
+            <br>
+            <b> Tools:</b> Adobe Illustrator, HTML, CSS, PHP, AJAX and mySQL.
+          </p>
         </div>
-    </header>
-    <!-- The backbutton bar at the top -->
-
-<!-- Project Intro-->
-<div class="row blue">
-    <div class="container">
-      <div class="four columns">
-        <h2 class = "aboutme"> About Evder </h2>
-        <p class = "bio">
-          <b class ="projectType"> Backend Web Development Project. </b>
-          <br>
-          <br>
-          Evder is a website developed <b class ="interactBold"> individually </b> by me, for a class project. <br>
-                          It was built using <b class ="interactBold"> html, </b> <b class ="interactBold"> css, </b> <b class ="interactBold"> php, </b> <b class ="interactBold"> ajax</b> and <b class ="interactBold"> mysql</b>. </p>
+        <!-- The backbutton bar at the top -->
+        <div class ="four columns" id ="projectSort">
+          <a class = "projectLinks" href ="muted.html"> next project: muted </a>
+        </div>
+        <!-- The backbutton bar at the top -->
       </div>
-      <div class="eight columns">
-        <h2 class="aboutme"> What is Evder? </h2>
-        <p class="bio"> Evder was developed as an attempt to solve a problem. For the project, we were
-        required to only fulfill a set of technical requirements, the topic and content of our websites were left up to us. I wanted
-      to come up with an attempt to <b class ="interactBold"> challenge Vancouver's image as a city without much excitement to it.</b> <br><br> From this came the
-    idea of Evder: a website that collects all of the events that are happening in a city of your choice and displays them to you
-  in one location. Users are able to sort the type of event they would like to go to by the city, type of event and price of the event. </p>
     </div>
-  </div>
-</div>
-<!-- Project Intro -->
+    <!-- Introduction to Evder -->
 
-<!-- Project Images Header -->
-<div class="row blue">
-    <div class="container">
-      <div class="six columns">
-        <h2 class = "aboutme">  Ideation and Prototyping </h2>
-      </div>
-      <div class="six columns">
-        <p class = "bio">
-          <i class = "noteDesc">
+    <!-- ideation and prototyping -->
+    <div class="container main">
+      <div class= "row projectbackground">
+        <div class="three columns portfolio">
+          <p class = "bio"> <b class = "projImg noHov"> Ideation and Prototyping: </b>
+        </div>
+        <div class="six columns portfolio">
             Before I began coding anything,
-            I created a quick mockup of my preferred layout in <b class ="interactBold"> adobe illustrator. </b>
-            I wanted a very simple and easy to follow layout that would also be visually pleasing. This is that mockup of my inital idea.
-          </i>
+            I created a quick mockup of my preferred layout in adobe illustrator.
+            I wanted a very simple and easy to follow layout that would also be visually pleasing. This is that mockup of my inital idea. </p>
+        </div>
       </div>
-  </div>
-</div>
-<!-- Project Images Header -->
-
-<!-- Project Images  -->
-<div class="container main">
-  <div class= "row">
-    <div class="four columns portfolio">
-    <img src="images/EvderHomeMockup.jpg" alt = "this is an image of a homepage"/>
     </div>
-    <div class="four columns portfolio">
-   <img src="images/EvderSignupMockup.jpg" alt = "this is an image of a signup popup"/>
-    </div>
-    <div class="four columns portfolio">
-      <img src="images/EvderLoginMockup.jpg" alt = "this is an image of a login popup"/>
-    </div>
-  </div>
-  <div class= "row">
-    <div class="six columns portfolio">
-    <img src="images/EvderSearchPage.jpg" alt = "this is an image of a search page"/>
-    </div>
-    <div class="six columns portfolio">
-   <img src="images/EvderEventDetailsPage.jpg" alt = "this is an image of a detailed view page"/>
-    </div>
-  </div>
-</div>
-<!-- Project Images  -->
-
-<!-- Project Images Header -->
-<div class="row blue">
-    <div class="container">
-      <div class="six columns">
-        <h2 class = "aboutme">  Inital Draft </h2>
+      <!-- Project Images  -->
+      <div class="container main">
+        <div class= "row">
+          <div class="four columns portfolio">
+          <img src="images/EvderHomeMockup.jpg" alt = "this is an image of a homepage"/>
+          </div>
+          <div class="four columns portfolio">
+         <img src="images/EvderSignupMockup.jpg" alt = "this is an image of a signup popup"/>
+          </div>
+          <div class="four columns portfolio">
+            <img src="images/EvderLoginMockup.jpg" alt = "this is an image of a login popup"/>
+          </div>
+        </div>
+        <div class= "row">
+          <div class="six columns portfolio">
+          <img src="images/EvderSearchPage.jpg" alt = "this is an image of a search page"/>
+          </div>
+          <div class="six columns portfolio">
+         <img src="images/EvderEventDetailsPage.jpg" alt = "this is an image of a detailed view page"/>
+          </div>
+        </div>
       </div>
-      <div class="six columns">
-        <p class = "bio">
-          <i class = "noteDesc">
-            Due to the time constraints, I initally <b class ="interactBold">abandoned all front end design, </b> focusing solely
-            on the <b class ="interactBold">backend technical requirements. </b> For this phase, my site was entirely basic HTML, with
-            occasional background colours in CSS in order to have the bare minimum visual separation. This
-            iteration <b class ="interactBold"> lacked any visual appeal, </b> thus there is little point to posting screenshots of it.
-            In its stead, here are some screenshots of my database from <b class ="interactBold">phpMyAdmin. </b>
-          </i>
-      </div>
-  </div>
-</div>
+      <!-- Project Images  -->
+    <!-- ideation and prototyping -->
 
+<!-- the database-->
+    <div class="container main">
+      <div class= "row projectbackground">
+        <div class="three columns portfolio">
+          <p class = "bio" > <b class = "projImg noHov"> The Database: </b>
+        </div>
+        <div class="six columns portfolio">
+          This was my first time working with backend development and so developing my database design was an iterative process.
+            Originally, I believed my database would be quite small, after all, I only needed to manage events and users. But as I began coding, I began
+            to notice the need to add more and more tables to my database. Upon completion, I had five: events, personalization,
+             posts, savedposts, and users. </p>
+        </div>
+      </div>
+    </div>
+<!-- the database-->
 
 <!-- Project Images  -->
 <div class="container main">
@@ -153,55 +134,31 @@
    <img src="images/database5.jpg" alt = "this is an image of my database"/>
     </div>
   </div>
-</div>
-<!-- Project Images  -->
-
-<!-- Database Header -->
-<div class="row blue">
-    <div class="container">
-      <div class="six columns">
-        <h2 class = "aboutme">  The Database </h2>
-      </div>
-      <div class="six columns">
-        <p class = "bio">
-        <i class = "noteDesc">  This was my first time working with backend development and so developing my database design was an iterative process.
-          Originally, I believed my database would be quite small, after all, I only needed to manage events and users. But as I began coding, I began
-          to notice the need to add more and more tables to my database. Upon completion, I had five: <b class ="interactBold"> events, </b>  <b class ="interactBold"> personalization,
-          </b><b class ="interactBold"> posts, </b> <b class ="interactBold"> savedposts, </b> and <b class ="interactBold"> users.</b>
-        </i>
-      </div>
-  </div>
-</div>
-<!-- Database Header -->
-
-<!-- Database Image -->
-<div class="container main">
   <div class= "row">
-    <div class="eight columns portfolio">
+    <div class="six columns portfolio">
     <img src="images/ERDiagramforPortfolio.jpg" alt = "This is an ER diagram of my database design"/>
     </div>
   </div>
+
 </div>
-<!-- Database Image -->
+<!-- Project Images  -->
 
 <!-- Project Challenges + Reflection -->
-<div class="row blue">
+<div class="row">
     <div class="container">
-      <div class="four columns">
-        <h2 class = "aboutme"> Challenges </h2>
-        <p class = "bio">
-          One of my most memorable challenges was when I was attempting to implement the ability for users to save events.
-          I was attemping to save <b class = "interactBold"> multiple userid's for a single event, </b> in the events table. This was
-          because I wanted to keep track of which events were saved to the accounts of which users. <br> <br>
-          It was not until later, when saying aloud my problem, that
-          I realized that I was going about it all wrong.
-          This lead to the creation of a new table in my database which stores the username of
-          the user, along with the event id, to be able to access that event later. </p>
-      </div>
       <div class="eight columns">
-        <h2 class="aboutme"> Reflection </h2>
-        <p class="bio">
-          If I were to do this again, I spend more time working on the design of my website
+      <p class ="bio">
+        <b>Challenges: </b>
+        One of my most memorable challenges was when I was attempting to implement the ability for users to save events.
+        I was attemping to save multiple userid's for a single event, in the events table. This was
+        because I wanted to keep track of which events were saved to the accounts of which users.
+        It was not until later, when saying aloud my problem, that
+        I realized that I was going about it all wrong.
+        This lead to the creation of a new table in my database which stores the username of
+        the user, along with the event id, to be able to access that event later.
+        <br>
+        <br>
+        <b> Reflection:</b>  If I were to do this again, I spend more time working on the design of my website
           as, at the time, I did not have enough time to work on the frontend side of the things.
           I would have also liked to have run some user tests, as well as developed a way
           automatically fetch event data from the web.
@@ -210,44 +167,29 @@
           work as it took me a while to learn how to do so.
           Overall, I think I ended up learning a lot by struggling through various problems
           and figuring out how to solve them. Some parts definitely required me to step back and reexamine the issue
-          in order to solve the problem and I feel that this made me more capable of handling such problems in the future.
-
-        </p>
+          in order to solve the problem and I feel that this made me more capable of handling such problems in the future. </p>
     </div>
   </div>
 </div>
 <!-- Project Challenges + Reflection -->
-<!-- Graphics Header -->
-<div class="row blue">
-    <div class="container">
-      <div class="five columns">
-        <h2 class = "aboutme">  The Final Product </h2>
-      </div>
-      <div class="six columns">
+
+
+<div class="container main">
+  <div class= "row projectbackground">
+    <div class="four columns portfolio">
+      <iframe class ="projImg" src="https://www.youtube.com/embed/FqbQbVNfYtU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="four columns portfolio">
         <p class = "bio">
-        <i class = "noteDesc">  This is the final walkthrough of the site, going through all of the functionalities available. There
-          are still many placeholders as the front end design was set aside for focus on the backend.
-        </i>
-      </div>
+            <b>The Final Product: </b> This is the final walkthrough of the site, going through all of the functionalities available. There
+              are still many placeholders as the front end design was set aside for focus on the backend.
+        </p>
+    </div>
   </div>
 </div>
-<!-- Graphics Header -->
 
 
-<!-- youtube link -->
-<header class="mainnavbar blue">
-    <div class="container">
-        <div class="twelve columns">
-          <div>
-            <iframe src="https://www.youtube.com/embed/FqbQbVNfYtU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-        </div>
-    </div>
-</header>
-<!-- youtube link -->
-
-
-<header class="mainnavbar blue">
     <div class="container">
         <div class="twelve columns">
           <div class="backnavi">
@@ -255,7 +197,6 @@
           </div>
         </div>
     </div>
-</header>
 
 <!-- footer-->
     <footer>
