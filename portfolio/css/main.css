@@ -124,24 +124,27 @@ p.copyright{
 @keyframes colourHover {
   0%   {left:0px; top:0px;}
   25%  {left:200px; top:0px;}
-  50%  {font-size: 110%; left:200px; top:200px;}
+  50%  {font-size: 85%; left:200px; top:200px;}
   75%  {left:0px; top:200px;}
-  100% {font-size: 100%; left:0px; top:0px;}
+  100% {font-size: 80%; left:0px; top:0px;}
+}
+#mutedVisitor:hover{
+  background-color: #3B647F;
+  color: white;
 }
 
 #tagline {
-  background-color: red;
   animation-name: colourChanger;
   animation-duration: 5s;
   animation-iteration-count: infinite;
 }
 
 @keyframes colourChanger {
-  0%   {background-color:red; left:0px; top:0px;}
+  0%   {background-color:lightblue; left:0px; top:0px;}
   25%  {background-color:pink; left:200px; top:0px;}
-  50%  {background-color:yellow; left:200px; top:200px;}
+  50%  {background-color:#FFFF99; left:200px; top:200px;}
   75%  {background-color:pink; left:0px; top:200px;}
-  100% {background-color:red; left:0px; top:0px;}
+  100% {background-color:lightblue; left:0px; top:0px;}
 }
 
 img{
