@@ -59,7 +59,7 @@ p.copyright{
   color:rgba(0,0,0,.6);
   text-decoration: none;
   font-size: 1.2em;
-  padding: 2px 10px 12px 10px;
+  padding: 12px 10px 12px 10px;
   margin-right:2%;
 }
 .navi a:hover{
@@ -217,6 +217,40 @@ img.avatar:hover{
 
 #homeimg:hover{
   opacity: 1;
+}
+
+@media screen and (min-width: 4280px) {
+  #projectSort {
+    right: 40%;
+  }
+}
+@media screen and (min-width: 3100px) and (max-width: 4279px) {
+  #projectSort {
+    right: 40%;
+  }
+}
+
+@media screen and (min-width: 2800px)  and (max-width: 3099px){
+  #projectSort {
+    right: 34%;
+  }
+}
+
+@media screen and (min-width: 2300px)  and (max-width: 2799px){
+  #projectSort {
+    right: 32%;
+  }
+}
+
+@media screen and (min-width: 2000px)  and (max-width: 2299px) {
+  #projectSort {
+    right: 28%;
+  }
+}
+@media screen and (min-width: 1920px)  and (max-width: 1999px){
+  #projectSort {
+    right: 26%;
+  }
 }
 
 @media screen and (max-width: 1000px) {

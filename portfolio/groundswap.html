@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+    <title>Rebecca's Portfolio</title>
+    <meta name="description" content="Rebecca's Developer portfolio">
+    <meta name="author" content="Rebecca Singh">
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- FONT
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="fonts/font-awesome/css/fontawesome.min.css"> <!--load all styles -->
+
+    <!-- Favicon
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+  </head>
+  <body>
+        <!-- The main navigation bar at the top -->
+<element id ="thisNav">
+    <header class="mainnavbar">
+        <div class="container">
+            <div class="twelve columns">
+              <div class="navi">
+                <a href="index.html"> home </a>
+                <a href="resume/Resume.pdf" target="_blank"> resume </a>
+                <a href="contact.html"> about </a>
+                <img id = "homeimg" src="images/Logo.jpg" alt="home"/>
+              </div>
+            </div>
+        </div>
+    </header>
+  </element>
+    <!-- The main navigation bar at the top -->
+
+    <!-- Introduction to Euro Food UX  -->
+    <div class="row">
+        <div class="container">
+          <div class="twelve columns">
+            <h2 class="intro">  groundswap. </h2>
+          </div>
+          <div class="eight columns">
+           <p class="bio"> a <b id ="tagline"> java application</b> project. </p>
+          <p class ="bio">
+            <b>Description: </b> My teammate Harmit Singh and I wanted to explore some different image matting techniques, and how
+            these techniques vary when it comes to the final image product in an interactive way that would allow those unfamiliar with these
+            techniques to easily discern the differences. This lead to the creation of the java application, GroundSwap
+            where users can input any image of their choosing, preferably with a white background colour if they would like to be able to
+            experiment with the difference matting method. The user can then select one of the four prechosen background images we
+            have to offer and be able to see, step by step, their input image, the matte image generated, the background image they have chosen as well
+            as the final image with the new background.
+            <br>
+            <br>
+            <b> Tools:</b> Java, Eclipse, Adobe Photoshop.
+          </p>
+        </div>
+        <!-- The backbutton bar at the top -->
+        <div class ="two columns" id ="projectSort">
+          <a class = "projectLinks" href ="cyberview.html"> next project: cyberview </a>
+        </div>
+        <!-- The backbutton bar at the top -->
+      </div>
+    </div>
+    <!-- Introduction to Evder -->
+
+    <!-- ideation and prototyping -->
+    <div class="container main">
+      <div class= "row projectbackground">
+        <div class="three columns portfolio">
+          <p class = "bio"> <b class = "projImg noHov"> Ideation and Prototyping: </b> </p>
+        </div>
+        <div class="six columns portfolio">
+         <p> Before my partner and I began, we both individually did research by means of research papers. Our
+         two main points of reference were  “A Bayesian Approach to Digital Matting” written by Yung-Yu Chuang, B. Curless, and D.H. Salesin, 2001
+       and “Video Background Replacement without A Bluescreen” by Richard J. Qian and M. Ibrahim Sezan, 1999.
+       <br>
+       These papers helped us to get a better idea of matte image generation and originally we were very interested in replicating the "A Bayesian Approach to Digital Matting" as well but
+   the calculus required was well beyond the scope of this project, given that it was an exploratory approach.
+   <br>
+   Thus, we proceeded having identified luminance, chrominance, difference, and colour difference as our
+   four choices of matte creation and began to write our code. While we did want to implement user interaction and background changes,
+   we first implemented matte creation on images that I selected based upon solid colour usage and photoshopped to fit our needs. I implemented
+ the colour difference and difference matting methods, and my partner implemented chrominance and luminance (chroma and lumakey). </p>
+        </div>
+      </div>
+    </div>
+      <!-- Project Images  -->
+      <div class="container main">
+        <div class= "row">
+          <div class="twelve columns portfolio">
+          <img src="images/groundswapimg1.png" alt = "this is a screenshot of our inital GUI"/>
+          </div>
+        </div>
+      </div>
+      <!-- Project Images  -->
+    <!-- ideation and prototyping -->
+
+<!-- my work-->
+    <div class="container main">
+      <div class= "row projectbackground">
+        <div class="three columns portfolio">
+          <p class = "bio" > <b class = "projImg noHov"> My Work for the Final Prototype: </b> </p>
+        </div>
+        <div class="six columns portfolio">
+          <p> For our final prototype, I implemented a method to check the size of the user input photo,
+            located and resized photos to use for the background, added click detection for the background image selection,
+            cleaned up previous code, implemented background image swap based on image selection,
+            added in a button with click detection to later use to save an image,
+            implemented the image save method, as well as implemented final image creation for
+            colour matting and differencing matting methods.  </p>
+        </div>
+      </div>
+    </div>
+<!-- my work-->
+
+<!-- Project Images  -->
+<div class="container main">
+  <div class= "row">
+    <div class="twelve columns portfolio">
+    <img src="images/groundswapimg2.png" alt = "this is a screenshot of our final GUI"/>
+    </div>
+  </div>
+</div>
+<!-- Project Images  -->
+
+
+<!-- my prototype-->
+    <div class="container main">
+      <div class= "row projectbackground">
+        <div class="three columns portfolio">
+          <p class = "bio" > <b class = "projImg noHov"> The Final Prototype: </b> </p>
+        </div>
+        <div class="six columns portfolio">
+          <p> The final result consisted of a fully working application with all of the features we expected to have in it.
+            Users are able to select between the four matte creation methods and four pre-selected background images.
+            Users are able to upload their own image for use, and if that image is too large it is resized automatically.
+            In order to use the application to its fullest extent, we do require that the user uploads a photo with a plain
+            white background, for the difference matting method to work. The user is reminded of this with a message
+            on the screen. </p>
+        </div>
+      </div>
+    </div>
+<!-- final prototype-->
+
+<!-- Project Challenges + Reflection -->
+<div class="row">
+    <div class="container">
+      <div class="eight columns">
+      <p class ="bio">
+        <b>Challenges: </b>
+        The biggest challenge we had for this project was deciding which matte creation techniques
+        we would be able to implement, given time constraints. Naturally, we had to abandon the techniques
+        for which the calculus behind them would take too long to both understand and implement. We also
+        had to decide how many different methods would make our exploratory approach exciting and attractive to users.
+        After much deliberation, we managed to settle on four as to keep the UI as clean and usable as possible, given
+        the focus is to the functionality.
+        <br>
+        <br>
+        <b> Reflection:</b>  I really enjoyed working on this project and I learned a lot during this.
+      Particularly about how to ensure good communication between a partner. Harmit and I worked on this solely by communicating
+    online, due to the difficulties caused by COVID-19. I learned how to navigate working on a project where the code is
+    reliant on a lot of the same parts and focusing on not accidentally writing duplicate code.This
+    was a challenge as it was sometimes not immediately obvious if a chunk of reusable code had already been written.
+    I learned to take a minute to revisit the code if I noticed that my partner had pushed any new
+    changes, as occasionally there would be some chunk of code he had written that could be slightly altered so that it works
+    for both of us.
+    Additionally, this project really helped me further see how these particular matte creation techniques differ and may be
+    stronger in certain areas than others. </p>
+    </div>
+  </div>
+</div>
+<!-- Project Challenges + Reflection -->
+
+
+<div class="container main">
+  <div class= "row projectbackground">
+    <div class="four columns portfolio">
+      <iframe class ="projImg" src="https://www.youtube.com/embed/UtklrPEjHXk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <div class="four columns portfolio">
+        <p class = "bio">
+            <b>The Final Product: </b> This is the final walkthrough of groundswap, going through all of the functionalities available.
+        </p>
+    </div>
+  </div>
+</div>
+
+
+    <div class="container">
+        <div class="twelve columns">
+          <div class="backnavi">
+            <a href="#thisNav"> back to the top </a>
+          </div>
+        </div>
+    </div>
+
+<!-- footer-->
+    <footer>
+      <div class="container">
+          <div class="row twelve columns"></div>
+            <div class="row twelve columns"></div>
+            <p class ="copyright"> &copy; 2020 Rebecca Singhs' Portfolio </p>
+            <p class= "copyright"> <a href="https://github.com/RebSin/"> github </a> </p>
+      </div>
+    </footer>
+<!-- footer-->
+  </body>
+</html>
