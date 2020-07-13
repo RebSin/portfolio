@@ -40,12 +40,12 @@ header.mainnavbar{
   display: block;
   position: sticky;
   top: 0;
-  background-color: white;
+  background-color: #3B647F;
   z-index: 9999;
 }
 p.copyright{
   text-align: center;
-  color: #666;
+  color: white;
   font-size: 1em;
 }
 .navi {
@@ -56,7 +56,7 @@ p.copyright{
 
 .navi a {
   font-family: 'Roboto', sans-serif;
-  color:rgba(0,0,0,.6);
+  color:gainsboro;
   text-decoration: none;
   font-size: 1.2em;
   padding: 12px 10px 12px 10px;
@@ -64,12 +64,16 @@ p.copyright{
 }
 .navi a:hover{
   text-decoration-color: #fff;
-  color:#3B647F;
+  color:white;
   text-decoration: none !important;
 }
 .projectbackground {
   /* background-image: url("../images/papyrus.png"); */
   background-color:white;
+}
+
+footer {
+  background-color: #3B647F;
 }
 
 .projImg {
@@ -90,8 +94,8 @@ p.copyright{
 
 .currentNav {
   text-decoration-color: #fff !important;
-  color:#3B647F !important;
-  border-bottom: 2px solid #3B647F!important;
+  color:white !important;
+  border-bottom: 2px solid white !important;
 }
 .interactBold:hover {
   background-color: #fff;
@@ -206,8 +210,8 @@ img.avatar:hover{
 }
 
 #homeimg {
-  height: 6%;
-  width: 6%;
+  height: 5.5%;
+  width: 5.5%;
   margin-left: auto;
 }
 
@@ -217,6 +221,9 @@ img.avatar:hover{
 
 #homeimg:hover{
   opacity: 1;
+}
+.githublink {
+  color: gainsboro;
 }
 
 @media screen and (min-width: 4280px) {
